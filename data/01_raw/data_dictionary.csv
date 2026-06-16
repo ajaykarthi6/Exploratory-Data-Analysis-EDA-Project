@@ -1,0 +1,31 @@
+column,dtype,description,category
+customer_id,string,Unique customer identifier (ECO-XXXXX),Primary Key
+age,int,Customer age in years (18–72),Demographic
+gender,string,Gender identity,Demographic
+country,string,Customer country (12 countries),Geographic
+region,string,World region grouping,Geographic
+annual_income,int,Annual income in USD,Financial
+total_spend,int,Total lifetime spend in USD,Financial
+num_orders,int,Total number of orders placed,Behavioural
+avg_order_value,float,Average value per order (USD),Financial
+preferred_category,string,Most purchased product category,Behavioural
+acquisition_channel,string,Channel through which customer was acquired,Marketing
+payment_method,string,Preferred payment method,Behavioural
+device_type,string,Primary device used for shopping,Digital
+customer_segment,string,RFM-style customer segment,Segmentation
+satisfaction_score,float,"CSAT score (1–5); ~4% missing, imputed",Experiential
+days_since_last_order,int,Recency metric in days,Behavioural
+churn_risk,int,"Binary churn label (1=at risk, 0=active)",Target
+loyalty_points,int,Accumulated loyalty reward points,Engagement
+email_open_rate,float,"Email campaign open rate (0–1); ~2% missing, imputed",Marketing
+return_rate,float,Order return rate (0–1),Behavioural
+referral_count,int,Number of referrals made,Engagement
+account_age_days,int,Days since account creation,Tenure
+avg_session_duration_sec,int,Avg browsing session length in seconds; ~1% missing,Digital
+pages_per_session,int,Average pages viewed per session,Digital
+cart_abandonment_rate,float,Rate of cart abandonment (0–1); ~1% missing,Behavioural
+discount_usage_rate,float,Rate of discount/promo code usage (0–1),Marketing
+reviews_submitted,int,Number of product reviews written,Engagement
+wishlist_items,int,Number of items in wishlist,Engagement
+mobile_app_user,int,Whether customer uses the mobile app (1=yes),Digital
+newsletter_subscriber,int,Whether subscribed to newsletter (1=yes),Marketing

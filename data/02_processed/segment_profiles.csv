@@ -1,0 +1,8 @@
+customer_segment,n_customers,avg_spend,avg_orders,avg_satisfaction,churn_rate,avg_clv,avg_engagement,avg_rfm
+At-Risk,213,4110.75,9.18,3.76,0.15,2709.44,0.22,0.46
+Champion,175,3544.41,8.65,3.82,0.25,2342.69,0.22,0.45
+Hibernating,194,3542.75,9.27,3.85,0.27,2323.96,0.22,0.44
+Lost,131,3465.73,9.3,3.76,0.18,2233.01,0.23,0.44
+Loyal,289,3568.37,9.03,3.92,0.19,2409.36,0.21,0.45
+New Customer,197,3704.92,8.8,3.82,0.17,2435.87,0.21,0.45
+Potential Loyalist,301,3675.16,8.9,3.84,0.23,2509.2,0.22,0.45
